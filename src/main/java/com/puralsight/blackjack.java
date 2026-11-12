@@ -35,6 +35,15 @@ public class blackjack {
         if (player4.isEmpty()) player4 = "player4";
 
         System.out.println("\n Welcome " + Player1 + ", " + Player2 + "," + Player3 + "and" + Player4);
+
+        // Start Player 1
         return player1;
+    }
+
+    private static void playTurn(String player1) {
+    }
+
+    private static void playTurn() {
+        playTurn();
     }
 }
