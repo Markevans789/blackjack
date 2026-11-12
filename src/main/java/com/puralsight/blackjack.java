@@ -1,12 +1,18 @@
 package com.puralsight;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class blackjack {
     static Scanner input = new Scanner(System.in);
     private static String Player1;
-    Random random = new Random();
+    private static String Player2;
+    private static String Player3;
+    private static String Player4;
+
+    void Random() {
+
+    }
+
     public static String main(String[] args){
         System.out.println("==== BLACKJACK ====");
 
@@ -28,6 +34,6 @@ public class blackjack {
         if (player3.isEmpty()) player3 = "player3";
         if (player4.isEmpty()) player4 = "player4";
 
-        System.out.println("\n Welcome " + Player1 + ", " + );
+        System.out.println("\n Welcome " + Player1 + ", " + Player2 + "," + Player3 + "and" + Player4);
     }
 }
