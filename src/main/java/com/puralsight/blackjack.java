@@ -37,7 +37,18 @@ public class blackjack {
         System.out.println("\n Welcome " + Player1 + ", " + Player2 + "," + Player3 + "and" + Player4);
 
         // Start Player 1
+        playTurn(player1);
+
         return player1;
+
+        //player2
+        playTurn(player2);
+
+        //player3
+        playTurn(player3);
+
+        //player4
+        playTurn(player4);
     }
 
     private static void playTurn(String player1) {
